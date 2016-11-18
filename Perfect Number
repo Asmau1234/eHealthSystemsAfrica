@@ -1,0 +1,19 @@
+function isPerfect(x){
+	
+	var divisor=0;
+	var i=0;
+	while(divisor < x){
+	if(x % i == 0)
+
+	divisor =divisor + i;
+     i++;
+	
+    
+
+	}
+	print(x+ "This is a perfect Number");
+}
+
+
+isPerfect(6);
+

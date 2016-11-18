@@ -1,0 +1,10 @@
+function find_char_fast2(string1, string2){
+    var s= set(string2);
+    var x;
+
+    for x in string1
+    if x in s
+
+    return x
+
+    }

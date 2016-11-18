@@ -1,0 +1,10 @@
+Array.prototype.unique= function() {
+    var sorted = this;
+    sorted.sort();
+    return sorted.filter(function(value, index, arr){
+        if(index < 1) 
+            return true;
+        else
+            return value != arr[index-1];
+    });
+}
